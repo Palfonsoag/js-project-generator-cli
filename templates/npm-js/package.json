@@ -1,0 +1,18 @@
+{
+  "name": "<%= projectName %>",
+  "version": "1.0.0",
+  "description": "# Requirements * ... * ... * ...",
+  "main": "index.js",
+  "type": "module",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "mocha": "10.7.3"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "Pedro Alfonso Garcia <p.alfonsoag@gmail.com>",
+  "license": "MIT"
+}

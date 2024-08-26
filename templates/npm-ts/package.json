@@ -1,0 +1,21 @@
+{
+  "name": "<%= projectName %>",
+  "version": "1.0.0",
+  "description": "# Requirements * ... * ... * ...",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.js",
+  "type": "module",
+  "directories": {
+    "test": "test",
+    "build": "tsc",
+    "watch": "tsc -w"
+  },
+  "dependencies": {
+    "mocha": "10.7.3"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "Pedro Alfonso Garcia <p.alfonsoag@gmail.com>",
+  "license": "MIT"
+}

@@ -1,0 +1,36 @@
+{
+  "name": "js-project-generator-cli",
+  "version": "1.0.0",
+  "description": "CLI to create simple TS and JS projects",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Palfonsoag/js-project-generator-cli.git"
+  },
+  "keywords": [
+    "CLI",
+    "NODE",
+    "JS",
+    "TS",
+    "Project-generator"
+  ],
+  "author": "Pedro Alfonso Garcia",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Palfonsoag/js-project-generator-cli/issues"
+  },
+  "bin": {
+    "js-project-generator": "./index.js"
+  },
+  "homepage": "https://github.com/Palfonsoag/js-project-generator-cli#readme",
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "ejs": "^3.1.10",
+    "inquirer": "^10.1.8",
+    "shelljs": "^0.8.5"
+  }
+}
