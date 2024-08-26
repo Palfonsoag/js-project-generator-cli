@@ -6,16 +6,16 @@
   "types": "./dist/index.d.js",
   "type": "module",
   "directories": {
-    "test": "test",
-    "build": "tsc",
-    "watch": "tsc -w"
+    "test": "test"
   },
   "dependencies": {
     "mocha": "10.7.3",
     "chai": "^5.1.1"
   },
   "scripts": {
-    "test": "mocha"
+    "test": "mocha",
+    "build": "tsc",
+    "watch": "tsc -w"
   },
   "author": "Pedro Alfonso Garcia <p.alfonsoag@gmail.com>",
   "license": "MIT"
